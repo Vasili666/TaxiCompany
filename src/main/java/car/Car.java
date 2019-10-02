@@ -5,13 +5,13 @@ import type.carProducer;
 import java.util.Objects;
 
 public abstract class Car {
-
+// Создаем переменные для родительского абстрактного класса Car
 private type.carProducer carProducer;
 private String model;
 private int costCar;
 private int maxSpeed;
 private int fuelConsumption;
-
+// Создаем конструктор
 public Car(carProducer producer, String model, int costCar, int maxSpeed, int fuelConsumption){
     this.carProducer = producer;
     this.model=model;
@@ -20,17 +20,45 @@ public Car(carProducer producer, String model, int costCar, int maxSpeed, int fu
     this.fuelConsumption=fuelConsumption;
 
 }
+// Геттеры и сеттеры
+//    public String getCarProducer() {
+//        return carProducer;
+//    }
+//
+//    public void setCarProducer(String carProducer) {
+//        this.carProducer = carProducer;
+//    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
 
     public int getCostCar() {
         return costCar;
+    }
+
+    public void setCostCar(int costCar) {
+        this.costCar = costCar;
     }
 
     public int getMaxSpeed() {
         return maxSpeed;
     }
 
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
     public int getFuelConsumption() {
         return fuelConsumption;
+    }
+
+    public void setFuelConsumption(int fuelConsumption) {
+        this.fuelConsumption = fuelConsumption;
     }
 
 
