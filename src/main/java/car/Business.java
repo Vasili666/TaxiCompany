@@ -8,12 +8,6 @@ import java.util.Objects;
 public class Business extends Car{
     private carType type;
 
-
-
-//    public Business getType() {
-//        return type;
-//    }
-
     public Business(carProducer producer, String model, int costCar, int maxSpeed, int fuelConsumption, carType type) {
         super(producer, model, costCar, maxSpeed, fuelConsumption);
         this.type=type;

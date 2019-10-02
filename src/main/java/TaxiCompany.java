@@ -7,16 +7,11 @@ import java.util.List;
 
 public class TaxiCompany {
 
-
-
-
     private List<? extends Car> cars;
 
     public TaxiCompany(List<Car> cars) {
         this.cars=cars;
     }
-
-
 
     public  int CalculateCostOfTaxiCompany(List<Car> cars){
         int sum=0;

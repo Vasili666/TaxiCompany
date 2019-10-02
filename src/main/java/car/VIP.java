@@ -9,9 +9,7 @@ public class VIP extends Car{
     private carType type;
 
 
-//    public VIP getType() {
-//        return type;
-//    }
+
 
     public VIP(carProducer producer, String model, int costCar, int maxSpeed, int fuelConsumption, carType type) {
         super(producer, model, costCar, maxSpeed, fuelConsumption);
