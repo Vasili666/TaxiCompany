@@ -59,3 +59,4 @@ public Car(carProducer producer, String model, int costCar, int maxSpeed, int fu
         return Objects.hash(carProducer, model, costCar, maxSpeed, fuelConsumption);
     }
 }
+//
